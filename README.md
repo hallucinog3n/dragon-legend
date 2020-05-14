@@ -25,5 +25,5 @@ The following environment variables have to be set on the running environment.
 * REDIS_PASSWORD [Optional]
 * REDIS_SCHEME [Optional]
 
-###Installation
+### Installation
 Source code can be compiled by `go build` command, and the output can be used to start serving directly. However, using the executable binary itself may end up with undesired results. Instead, deploying into a kubernetes cluster is strongly recommended.
